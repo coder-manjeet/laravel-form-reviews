@@ -1,0 +1,29 @@
+{
+    "name": "coder-manjeet/laravel-form-reviews",
+    "description": "Add  reviews in elegant way for your form fields",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "CoderManjeet\\LaravelFormReviews\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "coder-manjeet",
+            "email": "codermanjeet@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CoderManjeet\\LaravelFormReviews\\Providers\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.3"
+    }
+}
